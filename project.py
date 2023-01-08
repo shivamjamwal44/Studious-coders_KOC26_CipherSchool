@@ -35,7 +35,7 @@ def pos_neg(num):               # Function to check positive or negative
 
 def prime_num(num):             # Function to check prime or composite
     if num>1:
-        for i in range(2,num+1):
+        for i in range(2,num//2):
             if num%i == 0:
                 res = "is a Composite number"
         else:
